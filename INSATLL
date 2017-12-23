@@ -1,0 +1,58 @@
+Prerequisites
+	Perl 5.8 or later, with module DBI installed;
+	MySQL (tested on version 5 and later);
+For debian/ubuntu, Perl and modules should have been installed by default; 
+To check those modules status, run the following command in the terminal: 
+$ perldoc DBI
+To install MySQL on debian/ubuntu:
+$ apt-get install mysql-server
+
+INSTALLATION
+Before loading prot.accession2taxid, nodes.dmp and names.dmp to mysql, a user(username is test, password is 1234) and databases(taxondb and taxnode) must be created using mysql:
+$ mysql -uroot -p
+>insert into mysql.user(Host,User,Password) values("localhost","test",password("1234"));
+>CREATE DATABASE taxondb;
+>CREATE DATABASE taxnode;
+>GRANT ALL ON taxondb.* TO 'test'@'localhost' IDENTIFIED BY '1234';
+>GRANT ALL ON taxnode.* TO 'test'@'localhost' IDENTIFIED BY '1234';
+>flush privileges;
+>QUIT;
+
+Download && tar jxvf blast2hgt.tar.bz2;
+Download the following files(prot.accession2taxid, nodes.dmp and names.dmp are used): 
+	ftp://ftp.ncbi.nih.gov/pub/taxonomy/accession2taxid/prot.accession2taxid.gz
+	ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz
+And decompress to $path_to_blast2hgt/install_database/;
+$ cd $path_to_blast2hgt/install_database/
+$ ./importdatabase.sh
+This step may take hours to finish depending on the hardware performance;
+However, it doesn't need days to accomplish, if it lasts for a week, please check.
+
+Using blast2hgt
+
+Output
+The output is a tab delimited file(tsv), column headers are:
+query id
+E-value self
+E-value self_group
+E-value group1
+...
+E-value groupN
+alien_index: alien index
+AI_taxon: donor group based on alien index
+Bitscore self
+Bitscore self_group
+Bitscore group1
+...
+Bitscore groupN
+h: 
+%Bit_Diff: percentage difference of Bitscore between donor_group and self_group
+BitRatio: donor_group Bitscore divided by self_group Bitscore
+h_taxon: donor group based on h
+
+Options
+
+Notes(very important)
+It is highly recommended to run blast against each donor groups' databases individually. Default output number of blastp is 500, this may only include hits from self group. 
+Optionally, the output number of hits can be set via '-max-target-num' in NCBI blast.
+
