@@ -1,6 +1,6 @@
 ###Below add test(with password:1234) to Mysql users;
-###Alternatively You can custom the username and password, 
-###but you need to change these info in 'accgi_nr2taxonid.pl', 'accgi_refseqProtein2taxonid.pl', 'taxonid2lineage3.pub.pl' and  	'taxonid2lineage3.pl' accordingly.
+###Alternatively you can custom the username and password, 
+###but you need to change these info in 'accgi_nr2taxonid.pl', 'accgi_refseqProtein2taxonid.pl', 'taxonid2lineage3.pub.pl' and 'taxonid2lineage3.pl' accordingly.
 
 user=test;
 password=1234;
