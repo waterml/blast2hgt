@@ -54,5 +54,5 @@ Options
 
 Notes(very important)
 It is highly recommended to run blast against each donor groups' databases individually. Default output number of blastp is 500, this may not cover all defined groups. 
-Optionally, the output number of hits can be set via '-max-target-num' in NCBI blast.
+Optionally, the output number of hits can be set via '-max-target-num' in NCBI blast, if your PC can suffer that.
 
