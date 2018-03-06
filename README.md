@@ -1,6 +1,6 @@
 #Blast2hgt    
 ##Get horizontal transfer candidates from NCBI blast results.    
-######The targets can be proteins, genes or partitial sequences.   
+######The targets can be proteins, genes or partitial genomic sequences.   
 
 Note: A nuclear database is required for horizontal transfered genes   
 And a protein database is required for horizontal transfered proteins   
