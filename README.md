@@ -14,6 +14,10 @@ The first table can be constructed from taxdump.tar.gz.
 See: 
 >INSTALL  
 >
-for detailed database installation guide.   
+for detailed database installation guide. 
+
 **How to run:**  
-0run.sh contains a simple example to explain how to run Blast2hgt.   
+>
+0run.sh   
+>
+contains a simple example explaining how to run Blast2hgt.   
