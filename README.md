@@ -10,11 +10,8 @@ Do not mix them.
 All files are portable.   
 However, a database with a table containing hits' accession && species taxonomy ID as well as a table of NCBI taxonomy map is mandatory.  
 The first table can be constructed from `gi_taxid_nucl.zip/gi_taxid_prot.zip` or built from NR/NT;     
-The second table can be constructed from (ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz)[taxdump.tar.gz].   
+The second table can be constructed from [taxdump.tar.gz](ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz).   
 See `INSTALL` for detailed database installation guide. 
 
 **How to run:**  
->
-`0run.sh`   
->
-contains a simple example explaining how to run Blast2hgt.   
+`0run.sh` contains a simple example explaining how to run Blast2hgt.   
