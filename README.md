@@ -12,7 +12,7 @@ All files are portable.
 However, a database with a table containing hits' accession && species taxonomy ID as well as a table of NCBI taxonomy map is mandatory.  
 The first table can be constructed from `gi_taxid_nucl.zip/gi_taxid_prot.zip` or built from nr/nt;     
 The second table can be constructed from `taxdump.tar.gz`.   
-Above files can be downlaoded from NCBI website: ftp://ftp.ncbi.nih.gov/pub/taxonomy/.   
+Above files can be downloaded from NCBI website: ftp://ftp.ncbi.nih.gov/pub/taxonomy/.   
 See `INSTALL` for detailed database installation guide. 
 
 **How to run:**  
