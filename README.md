@@ -1,5 +1,5 @@
 # Blast2hgt
-====
+
 Get horizontal (gene/segmental sequence) transfers from NCBI blast results. 
 ----
 ##How to install:
