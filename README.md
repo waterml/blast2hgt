@@ -6,8 +6,7 @@ Note: A nuclear database is required for horizontal transfered genes
 And a protein database is required for horizontal transfered proteins   
 Do not mix them.
 
-How to install:  
+**How to install:**  
 See INSTALL for installation guide.   
-run example  
-0run.sh contains a simple example script to run last2hgt.   
-
+**Run example**  
+0run.sh contains a simple example to explain how to run Blast2hgt.   
