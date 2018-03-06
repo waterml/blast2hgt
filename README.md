@@ -12,7 +12,8 @@ However, a database with a table containing hits' accession && species taxonomy 
 The first table can be constructed from gi_taxid_nucl.zip/gi_taxid_prot.zip or built from NR/NT;     
 The first table can be constructed from taxdump.tar.gz.   
 See: 
->INSTALL   
+>INSTALL  
+>
 for detailed database installation guide.   
 **How to run:**  
 0run.sh contains a simple example to explain how to run Blast2hgt.   
