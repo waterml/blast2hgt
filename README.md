@@ -1,4 +1,4 @@
-# Blast2hgt
+Blast2hgt
 
 Get horizontal (gene/segmental sequence) transfers from NCBI blast results. 
 ----
