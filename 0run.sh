@@ -2,6 +2,7 @@
 
 dirpath=$PWD
 query=human51.fa
+#suppose the BLAST output files are 'human51.fa_rpd.1.dbls human51.fa_rpd.2.dbls human51.fa_rpd.*.dbls'
 cat $query\_rpd.*.dbls >$query\_rpd.dbls.all
 awk '$11<=1e-5{print $1,$2,$11,$12}' $query\_rpd.dbls.all |
 perl -pe 's/ /\t/g;' >$query.rp.blsraw
