@@ -1,7 +1,7 @@
 Blast2hgt
 ------
 Determine horizontal transfer candidates based on sequence similarity. Currently supports BLAST outputs.    
-The targets can be proteins, genes or partitial genomic sequences.   
+The transfer targets can be proteins, genes or partitial genomic sequences.   
 
 **Note:** A nuclear database is required for horizontal transfered genes/nucleotide sequences;   
 And a protein database is required for horizontal transfered proteins;   
