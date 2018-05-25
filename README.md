@@ -21,5 +21,5 @@ See `INSTALL` for detailed database installation guide.
 **For advanced user:**
 Scripts and examples for BLAST database partition are stored in `BlastDB_split` folder.   
 
-If you find these scripts useful, please kindly cite:   
+If you find this useful, please kindly cite:   
 Li, M., Zhao, J., Tang, N., Sun, H., & Huang, J. (2018). Horizontal Gene Transfer From Bacteria and Plants to the Arbuscular Mycorrhizal Fungus Rhizophagus irregularis. Frontiers in Plant Science, 9, 701. https://doi.org/10.3389/fpls.2018.00701
