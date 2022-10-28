@@ -9,7 +9,7 @@ Blast2hgt also provides:
 
 The query objects can be proteins, genes or partitial genomic sequences.   
 
-**Note:** A MySQL database of BLAST hit's IDs and their species taxonomy is required, i.e.,   
+**Note:** A MySQL database of BLAST hit's IDs and their species taxonomy is required:    
  - If the BLAST database is nr, you have to import the nr sequence IDs and their taxonomy IDs into the MySQL database (use `import_nr.acc.taxid.sql`).   
  - If the nt is blasted, the nt sequence IDs and their taxonomy IDs should be imported.   
 
