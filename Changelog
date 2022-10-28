@@ -1,0 +1,6 @@
+Changelog:
+
+lineage2idgroup3.pl: 
+Removed GI support because GI is deprecated by NCBI.
+Now will get 1 seq per species within defined self, if self is a group of species derived from a common ancestor(e.g., plants/hominid, or a genus)
+Bug fix when choosing groups' seqs.

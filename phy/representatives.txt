@@ -1,0 +1,145 @@
+#do not disturb data structure
+self	4527	Oryza
+&2	Bac
+1236	Gammaproteobacteria
+28211	Alphaproteobacteria
+28216	Betaproteobacteria
+32045	unclassified Proteobacteria
+68525	delta.epsilon subdivisions
+580370	Zetaproteobacteria
+1553900	Oligoflexia
+1807140	Acidithiobacillia
+1817794	Candidatus Lambdaproteobacteria
+1817795	Candidatus Muproteobacteria
+2323	unclassified Bacteria
+32066	Fusobacteria
+40117	Nitrospirae
+57723	Acidobacteria
+67814	Caldiserica
+68297	Dictyoglomi
+74152	Elusimicrobia
+200783	Aquificae
+200918	Thermotogae
+200930	Deferribacteres
+200938	Chrysiogenetes
+200940	Thermodesulfobacteria
+203691	Spirochaetes
+508458	Synergistetes
+1783257	PVC group
+1783270	FCB group
+1239	Firmicutes
+1297	Deinococcus-Thermus
+67819	Armatimonadetes
+200795	Chloroflexi
+201174	Actinobacteria
+544448	Tenericutes
+1859062	unclassified Terrabacteria
+1117	Cyanobacteria
+1798710	Candidatus Melainabacteria
+1919278	unclassified Cyanobacteria.Melainabacteria
+1802340	Nitrospinae.Tectomicrobia
+1853220	Rhodothermaeota
+1930617	Calditrichaeot
+
+&4751	Fungi
+4761	Chytridiomycota
+6029	Microsporidia
+89443	unclassified Fungi
+112252	Fungi incertae sedis
+451455	Neocallimastigomycota
+451459	Blastocladiomycota
+4890	Ascomycota
+5204	Basidiomycota
+1210850	unclassified Dikarya
+1696033	Entorrhizomycota
+584652	Mixed fungal DNA libraries
+1031332	Cryptomycota
+214506	Glomeromycetes
+241590	unclassified Glomeromycota
+451507	Mucoromycotina
+1137986	Mortierellomycotina
+1913638	Zoopagomycota
+
+&10239	Viruses
+12333	unclassified phages
+12429	unclassified viruses
+12877	Satellites
+29258	ssDNA viruses
+35237	dsDNA viruses.no RNA stage
+35268	Retro_transcribing viruses
+35325	dsRNA viruses
+39759	Deltavirus
+439488	ssRNA viruses
+451344	unclassified archaeal viruses
+552364	unclassified virophages
+686617	unassigned viruses
+1425366	Virus-associated RNAs
+
+&2157	Archaea
+183925	Methanobacteria
+183939	Methanococci
+183963	Halobacteria
+183967	Thermoplasmata
+183968	Thermococci
+183980	Archaeoglobi
+183988	Methanopyri
+33867	unclassified Euryarchaeota
+224756	Methanomicrobia
+1775750	Hadesarchaea
+29294	unclassified Archaea
+1783275	TACK group
+1783276	DPANN group
+
+&33090	Green plants
+3041	Green algae
+96475	Mesostigmatophyceae
+131213	Chlorokybophyceae
+131220	Klebsormidiophyceae
+131209	Zygnemophyceae
+304573	Coleochaetophyceae
+304574	Charophyceae
+3195	Marchantiophyta
+3208	Bryophyta
+13809	Anthocerotophyta
+42898	unclassified Embryophyta
+1521260	Lycopodiidae
+241806	Moniliformopses
+1392478	unclassified Spermatophyta
+1437180	Acrogymnospermae
+232365	basal Magnoliophyta
+232379	unclassified Magnoliophyta
+4447	Liliopsida
+71240	eudicotyledons
+91811	Ceratophyllales
+232347	Magnoliidae
+261008	Chloranthales
+
+&Other	_sis
+#Other groups, do not append group name. May not completely be plant_sis
+#12884	Viroids
+2763	Rhodophyta
+2830	Haptophyceae
+3027	Cryptophyta
+5719	Parabasalia
+5752	Heterolobosea
+33630	Alveolata
+33634	Stramenopiles
+33682	Euglenozoa
+38254	Glaucocystophyceae
+42452	unclassified eukaryotes
+66288	Oxymonadida
+136087	Malawimonadidae
+193537	Centroheliozoa
+207245	Fornicata
+339960	Katablepharidophyta
+543769	Rhizaria
+554296	Apusozoa
+554915	Amoebozoa
+556282	Jakobida
+1401294	Breviatea
+28009	Choanoflagellida
+33208	Metazoa
+42461	Opisthokonta incertae sedis
+1001604	Nucleariidae Fonticula group
+
+
