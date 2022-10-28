@@ -1,6 +1,11 @@
 Blast2hgt
 ------
-Determine horizontal transfer candidates based on sequence similarity, and reconstruct a phylogenetic tree to confirm the horizontal transfer event.
+Determine horizontal transfer candidates based on sequence similarity.   
+Blast2hgt also provides:
+ * A strategy for balanced sequence sampling from each taxonomy group to reconstruct phylogenetic trees.
+ * Scripts for semiautomated sequence extraction (based on Blast2hgt outputs) and phylogenetic analyses.
+
+
 
 The query objects can be proteins, genes or partitial genomic sequences.   
 
